@@ -1,12 +1,12 @@
-package com.nelioalves.cursomc.services;
+package br.com.prado.iluminacao.services;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.nelioalves.cursomc.domain.Categoria;
-import com.nelioalves.cursomc.repositories.CategoriaRepository;
+import br.com.prado.iluminacao.domain.Categoria;
+import br.com.prado.iluminacao.repositories.CategoriaRepository;
 
 @Service
 public class CategoriaService {

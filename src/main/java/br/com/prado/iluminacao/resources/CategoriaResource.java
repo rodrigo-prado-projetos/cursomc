@@ -1,4 +1,4 @@
-package com.nelioalves.cursomc.resources;
+package br.com.prado.iluminacao.resources;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nelioalves.cursomc.domain.Categoria;
-import com.nelioalves.cursomc.services.CategoriaService;
+import br.com.prado.iluminacao.domain.Categoria;
+import br.com.prado.iluminacao.services.CategoriaService;
 
 @RestController
 @RequestMapping(value = "/categorias")
